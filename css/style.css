@@ -93,4 +93,36 @@ position: relative;
     font-weight: 900;
     padding: 20px 50px;
    }
- 
+/*Services*/
+.services {
+    padding: 120px 0;
+}
+.box-wrapper {
+    display: flex;
+    padding-top: 80px;
+}
+.box {
+    flex: 0 0 33.333;
+    text-align: center;
+}
+.box i {
+    color:#fed136;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 3px solid #fed136;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+.box-title {
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 21px;
+    padding-bottom: 10px;
+}
+.box-text {
+    color: #777777;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+}
