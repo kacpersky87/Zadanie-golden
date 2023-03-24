@@ -147,3 +147,35 @@ position: relative;
     display: block;
     object-fit: cover;
 }
+/*Footer*/
+.footer {
+    display: flex;
+    padding: 40px 0;
+}
+.social ul {
+    list-style-type: none;
+}
+.social ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer i {
+    font-size: 20px;
+    background: #222222;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.inner-footer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.social {
+    text-align: center;
+}
