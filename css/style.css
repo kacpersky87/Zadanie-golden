@@ -119,10 +119,31 @@ position: relative;
     font-size: 18px;
     font-weight: 900;
     padding-top: 21px;
-    padding-bottom: 10px;
 }
 .box-text {
     color: #777777;
     font-family: 'Roboto Slab';
     font-size: 14px;
+}
+/*Portfolio*/
+.portfolio {
+    background-color: #f7f7f7;
+    padding: 120px 0;
+}
+.gallery-wrapper {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.gallery-box {
+    flex: 0 0 33.333;
+    text-align: center;
+    background-color: white;
+}
+.gallery-box img {
+    width: 100%;
+    max-width: 320px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
 }
