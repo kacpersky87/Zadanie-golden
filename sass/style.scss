@@ -15,7 +15,7 @@ body {
 h2 {
     color: #222222;
     font-size: 40px;
-    font-weight:900;
+    font-weight:800;
     text-transform: uppercase;
     text-align: center;
 }
@@ -26,7 +26,7 @@ h3 {
     font-style: italic;
     text-align: center;
     font-family: 'Droid Serif';
-    font-weight: 700;
+    font-weight: 500;
 }
 /*Navigation*/
 .navi ul {
@@ -77,12 +77,13 @@ position: relative;
  font-style: italic;
  font-size: 40px;
  text-transform: capitalize;
+ font-weight: 400;
 }
 .banner-inner h2 {
     color: white;
     font-size: 70px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 800;
     padding: 25px 0;
    }
    .banner-btn{
@@ -117,7 +118,7 @@ position: relative;
 }
 .box-title {
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 800;
     padding-top: 21px;
 }
 .box-text {
@@ -176,4 +177,3 @@ position: relative;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.social 
