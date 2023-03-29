@@ -197,7 +197,7 @@ position: relative;
         min-height: 90vh;
     }
     .box-wrapper {
-        flex-direction: column;}
+        flex-direction: column;
     }
     .gallery-wrapper {
         flex-direction: column;}
@@ -218,5 +218,15 @@ position: relative;
             margin: 0;
         }
         }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-inner h2 {
+        font-size: 50px;
+    }
+    .gallery-box {
+        margin: 10px;
+    }
+    .gallery-box img {
+        max-height: 250px;
     }
 }
